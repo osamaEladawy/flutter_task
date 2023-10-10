@@ -1,16 +1,14 @@
-# mvvm_flutter
+# Flutter Task Mobile App Posts
 
-A new Flutter project.
+**Packages we are using:**
 
-## Getting Started
+- state management
+- ok http
+- mvvm sructure
+- repository pattern
 
-This project is a starting point for a Flutter application.
+Flutter app for task using apis from ready posts apis
 
-A few resources to get you started if this is your first Flutter project:
+### Flutter Posts App template task screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
