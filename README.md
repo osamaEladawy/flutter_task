@@ -3,7 +3,7 @@
 **Packages we are using:**
 
 - state management
-- Network library (dio)
+- Network library (Dio)
 - mvvm structure
 - repository pattern
 
