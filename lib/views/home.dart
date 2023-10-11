@@ -53,28 +53,15 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppStyle.mainColor,
-      appBar: AppBar(
+      floatingActionButton: FloatingActionButton(
         backgroundColor: AppStyle.mainColor,
-        centerTitle: true,
-        title: Text(textHome.title),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: ElevatedButton(
-              style:ElevatedButton.styleFrom(
-                backgroundColor:kButtonMain ,
-                shape:const StadiumBorder()
-              ),
-              onPressed: ()async{
-               var result =await textHome.nextScreen(context,const ADDPost(),);
-               setState(() {
-                 result;
-               });
-              },
-              child: const Icon(Icons.add)),
-          )
-        ],
+        onPressed:()async{
+          var result =await textHome.nextScreen(context,const ADDPost(),);
+          setState(() {
+            result;
+          });
+        },
+        child:const Icon(Icons.add),
       ),
       body: OfflineBuilder(
         connectivityBuilder: (
